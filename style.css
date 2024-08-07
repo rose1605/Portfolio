@@ -1,0 +1,156 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Basic styles for body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: cornflowerblue;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: darkmagenta;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+header nav ul li {
+    background-color: black;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    padding: 10px 20px;
+    display: block;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    color: white;
+}
+
+/* About section styling */
+#about {
+    background-color: palevioletred;
+}
+
+#about img.profile-picture {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+/* Skills section styling */
+#skills {
+    background-color: darkcyan;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill {
+    text-align: center;
+    margin: 10px;
+}
+
+.skill img.skill-icon {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Projects section styling */
+#projects {
+    background-color: darkorange;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Resume section styling */
+#resume {
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+
+#resume a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Contact section styling */
+#contact {
+    background-color: lightseagreen;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact label {
+    margin-top: 10px;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact input[type="submit"] {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
